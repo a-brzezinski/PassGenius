@@ -1,27 +1,26 @@
-# React + TypeScript + Vite
+# Password Generator
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+PassGeniut is a password generator created using React and TypeScript. The application allows the user to select various password generation settings, such as length, presence of uppercase and lowercase letters, numbers and symbols. Each time the settings are changed, the application dynamically calculates the password strength level and presents it to the user.
 
-Currently, two official plugins are available:
+[Live Demo](https://passagenius.netlify.app/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Features
 
-## Expanding the ESLint configuration
+- Selecting the length of the password.
+- Controlling the presence of uppercase and lowercase letters.
+- Controlling the presence of numbers.
+- Controlling the presence of symbols.
+- Dynamic calculation and presentation of password strength.
+- Generating random passwords according to the selected settings.
+- Copy to clipboard
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## Stack
 
-- Configure the top-level `parserOptions` property like this:
+- React
+- TypeScript
+- Redux Toolkit
+- Tailwind
 
-```js
-   parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
-    tsconfigRootDir: __dirname,
-   },
-```
+## Build With
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+[Vite](https://github.com/vitejs/vite)
