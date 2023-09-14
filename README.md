@@ -4,7 +4,7 @@ PassGeniut is a password generator created using React and TypeScript. The appli
 
 [Live Demo](https://passagenius.netlify.app/)
 
-##Features
+## Features
 
 - Selecting the length of the password.
 - Controlling the presence of uppercase and lowercase letters.
